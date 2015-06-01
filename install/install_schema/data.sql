@@ -1284,7 +1284,7 @@ insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,3,'vtiger_leaddetails:company:company:Leads_Company:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,4,'vtiger_leadaddress:phone:phone:Leads_Phone:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,5,'vtiger_leadsubdetails:website:website:Leads_Website:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,6,'vtiger_leaddetails:email:email:Leads_Email:E');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,6,'vtiger_leaddetails:email:email:Leads_Email:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (1,7,'vtiger_crmentity:smownerid:assigned_user_id:Leads_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (4,1,'vtiger_account:accountname:accountname:Accounts_Account_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (4,2,'vtiger_accountbillads:bill_city:bill_city:Accounts_City:V');
@@ -1294,7 +1294,7 @@ insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (4,
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,1,'vtiger_contactdetails:firstname:firstname:Contacts_First_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,2,'vtiger_contactdetails:lastname:lastname:Contacts_Last_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,4,'vtiger_contactdetails:parentid:parent_id:Contacts_Member_Of:I');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,5,'vtiger_contactdetails:email:email:Contacts_Email:E');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,5,'vtiger_contactdetails:email:email:Contacts_Email:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,6,'vtiger_contactdetails:phone:phone:Contacts_Office_Phone:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (7,7,'vtiger_crmentity:smownerid:assigned_user_id:Contacts_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (10,0,'vtiger_potential:potentialname:potentialname:Potentials_Potential_Name:V');
@@ -1305,15 +1305,15 @@ insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (10
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (10,6,'vtiger_potential:sales_stage:sales_stage:Potentials_Sales_Stage:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (10,8,'vtiger_potential:potentialtype:opportunity_type:Potentials_Type:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (13,1,'vtiger_troubletickets:title:ticket_title:HelpDesk_Title:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (13,2,'vtiger_troubletickets:parent_id:parent_id:HelpDesk_Related_To:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (13,2,'vtiger_troubletickets:parent_id:parent_id:HelpDesk_Related_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (13,3,'vtiger_troubletickets:status:ticketstatus:HelpDesk_Status:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (13,4,'vtiger_troubletickets:priority:ticketpriorities:HelpDesk_Priority:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (13,5,'vtiger_crmentity:smownerid:assigned_user_id:HelpDesk_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,1,'vtiger_quotes:subject:subject:Quotes_Subject:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,2,'vtiger_quotes:quotestage:quotestage:Quotes_Quote_Stage:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,3,'vtiger_quotes:potentialid:potential_id:Quotes_Potential_Name:I');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,4,'vtiger_quotes:accountid:account_id:Quotes_Account_Name:I');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,5,'vtiger_quotes:total:hdnGrandTotal:Quotes_Total:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,3,'vtiger_quotes:potentialid:potential_id:Quotes_Potential_Name:V');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,4,'vtiger_quotes:accountid:account_id:Quotes_Account_Name:V');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,5,'vtiger_quotes:total:hdnGrandTotal:Quotes_Total:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (16,6,'vtiger_crmentity:smownerid:assigned_user_id:Quotes_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (19,0,'vtiger_activity:status:taskstatus:Calendar_Status:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (19,1,'vtiger_activity:activitytype:activitytype:Calendar_Type:V');
@@ -1326,9 +1326,9 @@ insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (20
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (20,1,'vtiger_emaildetails:to_email:saved_toid:Emails_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (20,2,'vtiger_activity:date_start:date_start:Emails_Date_Sent:D');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,1,'vtiger_invoice:subject:subject:Invoice_Subject:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,2,'vtiger_invoice:salesorderid:salesorder_id:Invoice_Sales_Order:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,2,'vtiger_invoice:salesorderid:salesorder_id:Invoice_Sales_Order:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,3,'vtiger_invoice:invoicestatus:invoicestatus:Invoice_Status:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,4,'vtiger_invoice:total:hdnGrandTotal:Invoice_Total:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,4,'vtiger_invoice:total:hdnGrandTotal:Invoice_Total:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (21,5,'vtiger_crmentity:smownerid:assigned_user_id:Invoice_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (22,1,'vtiger_notes:title:notes_title:Notes_Title:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (22,2,'vtiger_notes:filename:filename:Notes_File:V');
@@ -1336,7 +1336,7 @@ insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (22
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (22,4,'vtiger_crmentity:smownerid:assigned_user_id:Notes_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (23,1,'vtiger_pricebook:bookname:bookname:PriceBooks_Price_Book_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (23,2,'vtiger_pricebook:active:active:PriceBooks_Active:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (23,3,'vtiger_pricebook:currency_id:currency_id:PriceBooks_Currency:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (23,3,'vtiger_pricebook:currency_id:currency_id:PriceBooks_Currency:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (24,0,'vtiger_products:productname:productname:Products_Product_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (24,1,'vtiger_products:pscategory:pscategory:Products_Product_Category:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (24,3,'vtiger_products:unit_price:unit_price:Products_Unit_Price:N');
@@ -1344,23 +1344,23 @@ insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (24
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (24,5,'vtiger_products:discontinued:discontinued:Products_Product_Active:C');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (24,6,'vtiger_products:sales_start_date:sales_start_date:Products_Sales_Start_Date:D');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (25,1,'vtiger_purchaseorder:subject:subject:PurchaseOrder_Subject:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (25,2,'vtiger_purchaseorder:vendorid:vendor_id:PurchaseOrder_Vendor_Name:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (25,2,'vtiger_purchaseorder:vendorid:vendor_id:PurchaseOrder_Vendor_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (25,3,'vtiger_purchaseorder:tracking_no:tracking_no:PurchaseOrder_Tracking_Number:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (25,4,'vtiger_purchaseorder:total:hdnGrandTotal:PurchaseOrder_Total:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (25,5,'vtiger_crmentity:smownerid:assigned_user_id:PurchaseOrder_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,1,'vtiger_salesorder:subject:subject:SalesOrder_Subject:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,2,'vtiger_salesorder:accountid:account_id:SalesOrder_Account_Name:I');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,3,'vtiger_salesorder:quoteid:quote_id:SalesOrder_Quote_Name:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,2,'vtiger_salesorder:accountid:account_id:SalesOrder_Account_Name:V');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,3,'vtiger_salesorder:quoteid:quote_id:SalesOrder_Quote_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,4,'vtiger_salesorder:total:hdnGrandTotal:SalesOrder_Total:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (26,5,'vtiger_crmentity:smownerid:assigned_user_id:SalesOrder_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (27,1,'vtiger_vendor:vendorname:vendorname:Vendors_Vendor_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (27,2,'vtiger_vendor:phone:phone:Vendors_Phone:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (27,3,'vtiger_vendor:email:email:Vendors_Email:E');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (27,3,'vtiger_vendor:email:email:Vendors_Email:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (27,4,'vtiger_vendor:category:category:Vendors_Category:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (27,5,'vtiger_crmentity:smownerid:assigned_user_id:Vendors_Assigned_To:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (28,1,'vtiger_faq:question:question:Faq_Question:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (28,2,'vtiger_faq:category:faqcategories:Faq_Category:V');
-insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (28,3,'vtiger_faq:product_id:product_id:Faq_Product_Name:I');
+insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (28,3,'vtiger_faq:product_id:product_id:Faq_Product_Name:V');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (28,4,'vtiger_crmentity:createdtime:createdtime:Faq_Created_Time:DT');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (28,5,'vtiger_crmentity:modifiedtime:modifiedtime:Faq_Modified_Time:DT');
 insert  into `vtiger_cvcolumnlist`(`cvid`,`columnindex`,`columnname`) values (29,1,'vtiger_campaign:campaignname:campaignname:Campaigns_Campaign_Name:V');
@@ -3264,8 +3264,8 @@ insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (2,'vtiger.entity.aftersave','include/events/VTEntityDelta.php','VTEntityDelta','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (3,'vtiger.entity.aftersave','modules/com_vtiger_workflow/VTEventHandler.inc','VTWorkflowEventHandler','',1,'[\"VTEntityDelta\"]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (4,'vtiger.entity.afterrestore','modules/com_vtiger_workflow/VTEventHandler.inc','VTWorkflowEventHandler','',1,'[]');
-insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (5,'vtiger.entity.beforeunlink','include/events/VTEntityDelta.php','VTEntityDelta',NULL,1,'[]');
-insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (6,'vtiger.entity.afterunlink','include/events/VTEntityDelta.php','VTEntityDelta',NULL,1,'[]');
+insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (5,'vtiger.entity.unlink.before','include/events/VTEntityDelta.php','VTEntityDelta',NULL,1,'[]');
+insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (6,'vtiger.entity.unlink.after','include/events/VTEntityDelta.php','VTEntityDelta',NULL,1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (7,'vtiger.entity.aftersave.final','modules/ModTracker/handlers/ModTrackerHandler.php','ModTrackerHandler','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (8,'vtiger.entity.beforedelete','modules/ModTracker/handlers/ModTrackerHandler.php','ModTrackerHandler','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (9,'vtiger.entity.afterrestore','modules/ModTracker/handlers/ModTrackerHandler.php','ModTrackerHandler','',1,'[]');
@@ -3290,7 +3290,7 @@ insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (29,'vtiger.entity.aftersave.final','modules/Vtiger/handlers/SharingPrivileges.php','Vtiger_SharingPrivileges_Handler',NULL,1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (30,'vtiger.entity.aftersave','modules/SalesOrder/handlers/RecurringInvoiceHandler.php','RecurringInvoiceHandler','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (31,'vtiger.entity.aftersave.final','modules/HelpDesk/handlers/HelpDeskHandler.php','HelpDeskHandler','',1,'[]');
-insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (32,'vtiger.entity.afterunlink','modules/OSSTimeControl/handlers/TimeControl.php','TimeControlHandler',NULL,1,'[]');
+insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (32,'vtiger.entity.unlink.after','modules/OSSTimeControl/handlers/TimeControl.php','TimeControlHandler',NULL,1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (33,'vtiger.entity.afterdelete','modules/OSSTimeControl/handlers/TimeControl.php','TimeControlHandler',NULL,1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (34,'vtiger.entity.aftersave.final','modules/API/handlers/CardDAV.php','API_CardDAV_Handler','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (35,'vtiger.entity.aftersave.final','modules/API/handlers/CalDAV.php','API_CalDAV_Handler',NULL,1,'[]');
@@ -3299,6 +3299,8 @@ insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (38,'vtiger.entity.aftersave.final','modules/ProjectTask/handlers/ProjectTaskHandler.php','ProjectTaskHandler','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (39,'vtiger.entity.afterdelete','modules/ProjectTask/handlers/ProjectTaskHandler.php','ProjectTaskHandler','',1,'[]');
 insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (40,'vtiger.entity.afterrestore','modules/ProjectTask/handlers/ProjectTaskHandler.php','ProjectTaskHandler','',1,'[]');
+insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (41,'vtiger.entity.link.after','modules/ModTracker/handlers/ModTrackerHandler.php','ModTrackerHandler','',1,'[]');
+insert  into `vtiger_eventhandlers`(`eventhandler_id`,`event_name`,`handler_path`,`handler_class`,`cond`,`is_active`,`dependent_on`) values (42,'vtiger.entity.unlink.after','modules/ModTracker/handlers/ModTrackerHandler.php','ModTrackerHandler','',1,'[]');
 
 /*Data for the table `vtiger_eventhandlers_seq` */
 
